@@ -1,0 +1,116 @@
+{% extends 'AppBundle::layout.html.twig' %}
+{% trans_default_domain 'AppBundle' %}
+{% block body %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="panel-info" style="">
+                <div class="col-xs-12 top-buffer" style="font-weight: bolder;line-height: 40px;margin-bottom:10px;background-color:rgb(237, 244, 250);">
+                    {{ 'header.info' | trans}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+
+        </div>
+    </div>
+    <div class="container-fluid padding white-background">
+        {{ form_start(form) }}
+        {{ form_widget(form.shop) }}
+        <div class="row form-inline top-buffer edition-form-line">
+            <div class="edition-form-line-label">
+                {{ form_errors(form.attribute_id) }}
+            </div>
+            <div class="edition-form-line-label">
+                {{ form_label(form.attribute_id) }}
+            </div>
+            <div class="edition-form-line-field">
+                {{ form_widget(form.attribute_id,{'attr': {'style': 'background-color:rgb(255,255,255);'}}) }}
+                <div class="edition-form-comment">
+                    <div class="edition-form-comment-content">
+                        {{ 'attribute.info' |trans }}
+                    </div>
+                </div>
+            </div>
+            <div class="edition-form-line-label new_attr">
+                {{ form_errors(form.new_attribute) }}
+            </div>
+            <div class="edition-form-line-label new_attr">
+                <label for="appbundle_settings_new_attribute" class="required">{{ 'attribute.new.placeholder'|trans }}</label>
+            </div>
+            <div class="edition-form-line-field new_attr">
+                {{ form_widget(form.new_attribute) }}
+            </div>
+        </div>
+        <div class="row form-inline top-buffer edition-form-line">
+            <div class="edition-form-line-label">
+                {{ form_errors(form.dtext) }}
+            </div>
+            <div class="edition-form-line-label">
+                {{ form_label(form.dtext) }}
+            </div>
+            <div class="edition-form-line-field">
+                {{ form_widget(form.dtext) }}
+                <div class="edition-form-comment">
+                    <div class="edition-form-comment-content">
+                        {{ 'text.info' |trans }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row form-inline top-buffer edition-form-line">
+            <div class="edition-form-line-label">
+                {{ form_errors(form.type2) }}
+            </div>
+            <div class="edition-form-line-label">
+                {{ form_label(form.type2) }}
+            </div>
+            <div class="edition-form-line-field">
+                {{ form_widget(form.type2,{'attr': {'style': 'background-color:rgb(255,255,255);'}}) }}
+                <div class="edition-form-comment">
+                    <div class="edition-form-comment-content">
+                        {{ 'type2.help' |trans }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row form-inline top-buffer edition-form-line">
+            <div class="edition-form-line-label">
+                {{ form_errors(form.type_desc) }}
+            </div>
+            <div class="edition-form-line-label">
+                {{ form_label(form.type_desc) }}
+            </div>
+            <div class="edition-form-line-field">
+                {{ form_widget(form.type_desc,{'attr': {'style': 'background-color:rgb(255,255,255);'}}) }}
+                <div class="edition-form-comment">
+                    <div class="edition-form-comment-content">
+                        {{ 'type_desc.help' |trans }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row form-inline top-buffer edition-form-line">
+            <div class="edition-form-line-label">
+                {{ form_errors(form.active) }}
+            </div>
+            <div class="edition-form-line-label">
+                {{ form_label(form.active) }}
+            </div>
+            <div class="edition-form-line-field">
+                {{ form_widget(form.active) }}
+            </div>
+        </div>
+        <div class="row form-inline top-buffer edition-form-line">
+            <div class="edition-form-line-label">
+                {{ form_label(form.button) }}
+            </div>
+            <div class="edition-form-line-field">
+                {{ form_widget(form.button) }}
+            </div>
+        </div>
+        {{ form_end(form) }}
+    </div>
+{% endblock %}
+

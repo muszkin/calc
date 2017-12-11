@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file datatype="plaintext" original="file.ext" source-language="pl" target-language="en">
+        <body>
+            <trans-unit id="1">
+                <source>header.info</source>
+                <target>Unit Converter - app setting</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>attribute.label</source>
+                <target>Select attribute:</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>attribute.new</source>
+                <target>Add new atribute</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>attribute.new.placeholder</source>
+                <target>New attribute name</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>attribute.info</source>
+                <target>Choose attribute with one will be taken as base for calculating.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>text.label</source>
+                <target>Displayed text.</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>text.default</source>
+                <target>Product is selled in packages.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>text.info</source>
+                <target>Additional text info on product page.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>type.label</source>
+                <target>Type of value in attribute</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>type.help</source>
+                <target>Choose package or unit type</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>active.select</source>
+                <target>Activity</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>form.save</source>
+                <target>Save settings</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>type.unit</source>
+                <target>With decimal point</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>type.piece</source>
+                <target>Without decimal point</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>productlist.info</source>
+                <target>Are you sure that you want add attribute from "Calculator" application to selected products?</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>yes</source>
+                <target>Yes</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>no</source>
+                <target>No</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>current.header</source>
+                <target>Current settings stored in database</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>current.attribute.name</source>
+                <target>Name of selected attribute</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>current.attribute.type</source>
+                <target>Type of selected attribute</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>current.active</source>
+                <target>Activity</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>current.dtext</source>
+                <target>Additional displayed text</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>productlist.no_settings</source>
+                <target>You don't have any settings stored in database. Please first go to application settings.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>go</source>
+                <target>Go</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>progressbar.header</source>
+                <target>Adding new attributes</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>progressbar.progress</source>
+                <target>% done</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>progressbar.finish</source>
+                <target>Close</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>progressbar.finish.info</source>
+                <target>Adding attributes has been finished</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>calculator.other</source>
+                <target>other</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>product</source>
+                <target>Product with id: </target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>temporarily_unavailable</source>
+                <target> has not been modified because another administrator is editing it.</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>type_desc.select</source>
+                <target>Name for unit without decimal places (pieces etc)</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>type_desc.help</source>
+                <target>Type name for unit without decimal places</target>
+            </trans-unit>
+            <trans-unit id="34">
+                <source>type2</source>
+                <target>Name for unit with decimal places (m2, cm2 etc)</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>type2.help</source>
+                <target>Type name for unit with decimal places</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

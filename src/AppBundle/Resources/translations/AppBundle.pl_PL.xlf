@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file datatype="plaintext" original="file.ext" source-language="pl" target-language="pl">
+        <body>
+            <trans-unit id="1">
+                <source>header.info</source>
+                <target>Przelicznik jednostek - ustawienia aplikacji</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>attribute.label</source>
+                <target>Wybierz atrybut:</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>attribute.new</source>
+                <target>Dodaj nowy atrybut</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>attribute.new.placeholder</source>
+                <target>Nazwa nowego atrybutu</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>attribute.info</source>
+                <target>Wybierz atrybut, który bedzie definiował sposób przeliczenia opakowania lub m2.</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>text.label</source>
+                <target>Wyświetlany tekst:</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>text.default</source>
+                <target>Produkt sprzedawany jest na pełne opakowania.</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>text.info</source>
+                <target>Tekst do wyświetlenia na karcie produktu jako dodatkowa informacja</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>type.select</source>
+                <target>Typ wartości w atrybucie</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>type.help</source>
+                <target>Wybierz albo sztuki albo jednostkę miary</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>active.select</source>
+                <target>Aktywność</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>type.unit</source>
+                <target>Części dziesiętne</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>type.piece</source>
+                <target>Części całkowite</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>form.save</source>
+                <target>Zapisz ustawienia</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>productlist.info</source>
+                <target>Czy napewno chcesz dodać atrybut ustawiony w aplikacji "Calculator" do wybranych produktów?</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>yes</source>
+                <target>Tak</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>no</source>
+                <target>Nie</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>current.header</source>
+                <target>Obecne zapisane ustawienia aplikacji w bazie</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>current.attribute.name</source>
+                <target>Nazwa wybranego atrybutu</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>current.attribute.type</source>
+                <target>Typ wybranego atrybutu</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>current.active</source>
+                <target>Aktywność</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>current.dtext</source>
+                <target>Wyświetalny dodatkowy tekst</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>productlist.no_settings</source>
+                <target>Nie masz jeszcze wybranego żadnego atrybutu w aplikacji. Przejdź do niej i wybierz poprawne ustawienia</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>go</source>
+                <target>Idź</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>progressbar.header</source>
+                <target>Trwa dodawanie atrybutów</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>progressbar.progress</source>
+                <target>% ukończono</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>progressbar.finish</source>
+                <target>Zamknij</target>
+            </trans-unit>
+            <trans-unit id="28">
+                <source>progressbar.finish.info</source>
+                <target>Zakończono dodawanie atrybutów</target>
+            </trans-unit>
+            <trans-unit id="29">
+                <source>calculator.other</source>
+                <target>lub</target>
+            </trans-unit>
+            <trans-unit id="30">
+                <source>product</source>
+                <target>Produkt o id: </target>
+            </trans-unit>
+            <trans-unit id="31">
+                <source>temporarily_unavailable</source>
+                <target> nie został zmodyfikownay z powodu blokady edycji przez innego administratora</target>
+            </trans-unit>
+            <trans-unit id="32">
+                <source>type_desc.select</source>
+                <target>Wyświetlana nazwa jednostki dla wartości pełnych (sztuki itp)</target>
+            </trans-unit>
+            <trans-unit id="33">
+                <source>type_desc.help</source>
+                <target>Wpisz nazwę wyświetlanej jednostki miary ,która nie będzie zawierała miejsc po przecinku</target>
+            </trans-unit>
+	        <trans-unit id="34">
+                <source>type2</source>
+                <target>Wyświetlana nazwa jednostki dla wartości niepełnych (m2 ,litry itp)</target>
+            </trans-unit>
+            <trans-unit id="35">
+                <source>type2.help</source>
+                <target>Wpisz nazwę wyświetlanej jednostki miary ,która będzie zawierała miejsca po przecinku</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

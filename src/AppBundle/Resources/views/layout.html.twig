@@ -1,0 +1,24 @@
+{% extends '::base.html.twig' %}
+{% trans_default_domain 'AppBundle' %}
+{% block stylesheets %}
+
+    {{ parent() }}
+
+    {% stylesheets '@AppBundle/Resources/public/css/*' output='css/main.css' %}
+    <link href="{{ asset_url }}" rel="stylesheet" media="screen" />
+    {% endstylesheets %}
+
+{% endblock %}
+
+{% block javascripts %}
+
+    {{ parent() }}
+    <script>
+        var progressBarTitle = '{{ 'progressbar.header' | trans }}';
+        var progressBarProgress = '{{ 'progressbar.progress' | trans }}';
+    </script>
+    {% javascripts '@AppBundle/Resources/public/js/*' output='js/main.js' %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+
+{% endblock %}
