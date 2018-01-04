@@ -17,3 +17,9 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+    app_id: ~
+    app_secret: ~
+    appstore_secret: ~
+    home_app_id: ~
+    home_app_secret: ~
+    home_appstore_secret: ~
