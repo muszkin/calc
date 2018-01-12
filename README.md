@@ -1,5 +1,12 @@
-app
-===
+***Aplikacja Przelicznik jednostek***
+=
 
-A Symfony project created on October 7, 2016, 1:35 pm.
-# calc
+> 1. Struktura aplikacji
+> 2. Polecenia w konsoli
+> 3. Opis funkcji aplikacji
+
+
+**1.Struktura aplikacji**
+
+
+
